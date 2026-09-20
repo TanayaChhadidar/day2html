@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    width: 350px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.person img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.info {
+    flex: 1;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.type {
+    color: gray;
+}
+
+.popular {
+    color: gray;
+    font-size: 12px;
+}
+
+.follow {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="person">
+        <img src="cat.jpg">
+
+        <div class="info">
+            <div class="name">Oliver</div>
+            <div class="type">The cat</div>
+            <div class="popular">Popular</div>
+        </div>
+
+        <button class="follow">Follow</button>
+    </div>
+
+    <div class="person">
+        <img src="cat2.jpg">
+
+        <div class="info">
+            <div class="name">Mimi</div>
+            <div class="type">Sleepy Cat</div>
+            <div class="popular">Popular</div>
+        </div>
+
+        <button class="follow">Follow</button>
+    </div>
+
+    <div class="person">
+        <img src="dog.jpg">
+
+        <div class="info">
+            <div class="name">Rex</div>
+            <div class="type">Happy Bulldog</div>
+            <div class="popular">Popular</div>
+        </div>
+
+        <button class="follow">Follow</button>
+    </div>
+
+</div>
+
+</body>
+</html>
