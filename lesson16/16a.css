@@ -1,0 +1,20 @@
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    display: none;
+}
+
+.icon-container:hover .tooltip {
+    display: block;
+}
