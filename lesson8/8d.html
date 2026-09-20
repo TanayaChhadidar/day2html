@@ -2,31 +2,50 @@
 <html>
 <head>
     <style>
-        .google-logo {
-            width: 272px;
-            margin-left: 250px;
-            margin-bottom: 20px;
+        .name {
+            width: 180px;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-right: 5px;
+            box-sizing: border-box;
         }
 
-        .search-box {
-            width: 500px;
-            padding: 12px 20px;
-            border-radius: 25px;
-            border: 1px solid #ccc;
+        .email {
+            display: block;
+            width: 370px;
+            padding: 12px;
             font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+
+        .signup {
+            display: block;
+            width: 370px;
+            padding: 12px;
+            margin-top: 10px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
 
-    <img class="google-logo" src="google.png">
+    <input class="name" type="text" placeholder="First name">
+    <input class="name" type="text" placeholder="First name">
 
-    <br>
+    <input class="email" type="email" placeholder="Email">
 
-    <input class="search-box"
-           type="text"
-           placeholder="Search Google or type a URL">
+    <button class="signup">Sign Up</button>
 
 </body>
 </html>
