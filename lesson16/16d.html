@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.channel-picture-container {
+    position: relative;
+    display: inline-block;
+}
+
+.channel-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.channel-tooltip {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 1px 5px gray;
+    padding: 10px;
+    display: none;
+    z-index: 10;
+}
+
+.channel-picture-container:hover .channel-tooltip {
+    display: flex;
+    align-items: center;
+}
+
+.tooltip-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="channel-picture-container">
+
+    <img class="channel-picture" src="cat.jpg">
+
+    <div class="channel-tooltip">
+
+        <img class="tooltip-image" src="cat.jpg">
+
+        <div>
+            <b>Marques Brownlee</b>
+            <br>
+            3.4M subscribers
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
